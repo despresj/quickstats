@@ -54,8 +54,8 @@ Use two grouping variables
 stats_summary(mtcars, mpg, am, rounding_digits = 5)
 ```
 
-notin operator 
-```{r notin}
+Using the notin operator
+```{r}
 dplyr::filter(mtcars, carb %!in% c(1,2,3))
 ```
 
