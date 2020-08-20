@@ -36,12 +36,12 @@ stats_summary <- function(df, x, group_var1, group_var2, rounding_digits = 1){
       dplyr::group_by(!!group_var1, !!group_var2) %>%
       dplyr::summarise(Total = sum ( !! x),
                        Mean  = mean( !! x),
-                       Median  = median( !! x),
-                       `Std` = sd  ( !! x),
-                       `Min` = min ( !! x),
-                       `Max` = max ( !! x),
-
-                       Number = n() ) %>%
+                     Median  = median( !! x),
+                `mean - med` =  mean( !! x) - median( !! x),
+                         Std = sd  ( !! x),
+                         Min = min ( !! x),
+                         Max = max ( !! x),
+                      Number = n() ) %>%
       dplyr::mutate_if(is.numeric, round, rounding_digits)
   }
 
