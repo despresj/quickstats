@@ -11,6 +11,8 @@
 #' @return Tibble
 #' @export
 #'
+#' @import dplyr
+#'
 #' @examples
 #'
 #' Use one or two grouping variables

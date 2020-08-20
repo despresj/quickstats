@@ -1,6 +1,6 @@
 #' @title Not in Operator
 #'
-#' @description Returns everything but the vector specified
+#' @description Returns Everything But the Vector Specified
 #'
 #' @param x
 #' @param y
@@ -13,4 +13,5 @@
 #'
 #'
 #'
-'%!in%' <- function(x,y)!('%in%'(x,y))
+#'
+"%!in%" <- function(x,y)!{'%in%'(x,y)}
