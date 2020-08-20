@@ -1,0 +1,18 @@
+install.packages("devtools")
+devtools::install_github("despresj/quickstats")
+library(quickstats)
+#Use one or two grouping variables
+stats_presentable(mtcars, mpg, cyl)
+stats_presentable(mtcars, mpg, cyl, am)
+
+#Adjust the rounding
+stats_presentable(mtcars, mpg, cyl, am, 5)
+stats_presentable(mtcars, mpg, cyl, am, rounding_digits = 5)
+
+#Use one or two grouping variables
+stats_summary(mtcars, mpg, cyl)
+stats_summary(mtcars, mpg, cyl, am)
+
+#Adjust the rounding
+stats_summary(mtcars, mpg, cyl, am, 5)
+stats_summary(mtcars, mpg, cyl, am, rounding_digits = 5)

@@ -38,6 +38,6 @@ stats_presentable <- function(df, x, group_var1, group_var2, rounding_digits = 1
                      `50%` = quantile( !! x, probs = .50, na.rm = TRUE),
                      `75%` = quantile( !! x, probs = .75, na.rm = TRUE),
                      Average = mean(!! x, na.rm = TRUE),
-                     Amount  = n()) %>%
+                        N  = n()) %>%
     mutate_if(is.numeric, round, digits = rounding_digits)
 }
