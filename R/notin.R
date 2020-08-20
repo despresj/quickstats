@@ -14,4 +14,4 @@
 #'
 #'
 #'
-"%!in%" <- function(x,y)!{'%in%'(x,y)}
+`%!in%` <- function(x,y)!{'%in%'(x,y)}
