@@ -3,3 +3,4 @@
 export()
 export(stats_presentable)
 export(stats_summary)
+import(dplyr)
