@@ -8,7 +8,7 @@ The goal of quickstats is to save some time when doing basic data anaysis with D
 Installation
 ------------
 
-You can install the released version of quickstats from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of quickstats from [Github](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("quickstats")
