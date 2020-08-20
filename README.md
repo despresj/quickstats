@@ -8,7 +8,7 @@ The goal of quickstats is to save some time when doing basic data anaysis with D
 Installation
 ------------
 
-You can install the released version of quickstats from [Github](https://CRAN.R-project.org) with:
+You can install the released version of quickstats from [Github](https://github.com/despresj/quickstats) with:
 
 ``` r
 install.packages("quickstats")
@@ -34,7 +34,7 @@ library(dplyr)
 ## basic example code
 ```
 
-Return a tibble tailored to non-statisticans
+Return a tibble tailored to non-statisticans attempting to maximizing their understanding of their data
 
 ``` r
 stats_presentable(mtcars, mpg, cyl)

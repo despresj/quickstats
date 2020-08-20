@@ -29,10 +29,8 @@ install.packages("quickstats")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r library}
 library(quickstats)
-# figure out dependancy issue!
-library(dplyr)
 ## basic example code
 ```
 
@@ -45,3 +43,19 @@ This tibble that gives a quick summary of the data
 ```{r basicpresentable}
 stats_summary(mtcars, mpg, cyl)
 ```
+
+Adjust the rounding
+```{r adj-round}
+stats_presentable(mtcars, mpg, rounding_digits = 5)
+```
+
+Use two grouping variables
+```{r two-groups}
+stats_summary(mtcars, mpg, am, rounding_digits = 5)
+```
+
+notin operator 
+```{r notin}
+dplyr::filter(mtcars, carb %!in% c(1,2,3))
+```
+
