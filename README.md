@@ -11,7 +11,9 @@ Installation
 You can install the released version of quickstats from [Github](https://github.com/despresj/quickstats) with:
 
 ``` r
-install.packages("quickstats")
+install.packages("devtools")
+devtools::install_github("despresj/quickstats")
+library(quickstats)
 ```
 
 Example
