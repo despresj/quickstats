@@ -3,7 +3,7 @@
 quickstats
 ==========
 
-The goal of quickstats is to save some time when doing basic data anaysis with DPLYR
+The goal of quickstats is to save some time while doing basic data anaysis with DPLYR
 
 Installation
 ------------
@@ -12,19 +12,16 @@ You can install the released version of quickstats from [Github](https://github.
 
 ``` r
 install.packages("devtools")
+
 devtools::install_github("despresj/quickstats")
-library(quickstats)
 ```
-
-Example
--------
-
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(quickstats)
-## basic example code
 ```
+
+Examples
+--------
 
 Return a tibble tailored to non-statisticans attempting to maximizing their understanding of their data
 

@@ -25,7 +25,8 @@ You can install the released version of quickstats from [Github](https://github.
 install.packages("devtools")
 
 devtools::install_github("despresj/quickstats")
-
+```
+```{r library}
 library(quickstats)
 ```
 
