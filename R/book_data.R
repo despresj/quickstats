@@ -1,12 +1,14 @@
 #' @title book_data
 #'
-#' @description obtin data from 863 book
+#' @description
 #'
 #' @param chapter
 #' @param problem
 #'
+#'
 #' @examples
-#' book_data(chapter = 1, problem = 19)
+#'
+#'
 #'
 #'
 book_data <- function (chapter = 1, problem = 19) {
