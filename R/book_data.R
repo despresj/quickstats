@@ -21,4 +21,3 @@ book_data <- function (chapter = 1, problem = 19) {
 
   return(data)
 }
-
