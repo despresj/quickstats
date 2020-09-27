@@ -4,11 +4,10 @@
 #'
 #' @param chapter
 #' @param problem
-
+#'
 #' @examples
 #' book_data(chapter = 1, problem = 19)
 #'
-
 #'
 book_data <- function (chapter = 1, problem = 19) {
 
