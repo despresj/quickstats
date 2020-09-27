@@ -2,26 +2,13 @@
 #'
 #' @description obtin data from 863 book
 #'
-#' @param df
-#' @param x
-#' @param group_var1
-#' @param group_var2
-#' @param rounding_digits
-#'
-#' @return Tibble
-#' @export
-#'
-#' @import dplyr
+#' @param chapter
+#' @param problem
+
 #' @examples
+#' book_data(chapter = 1, problem = 19)
 #'
-#' Use one or two grouping variables
-#' stats_summary(mtcars, mpg, cyl)
-#' stats_summary(mtcars, mpg, cyl, am)
-#'
-#' Adjust the rounding
-#' stats_summary(mtcars, mpg, cyl, am, 5)
-#' stats_summary(mtcars, mpg, cyl, am, rounding_digits = 5)
-#'
+
 #'
 book_data <- function (chapter = 1, problem = 19) {
 
@@ -33,4 +20,4 @@ book_data <- function (chapter = 1, problem = 19) {
 
   return(data)
 }
-book_data()
+
