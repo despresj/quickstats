@@ -1,6 +1,4 @@
-#' @title stats_presentable
-#'
-#' @description
+#' @title statspresentable
 #'
 #' @param df
 #' @param x
@@ -22,9 +20,6 @@
 #' Adjust the rounding
 #' stats_presentable(mtcars, mpg, cyl, am, 5)
 #' stats_presentable(mtcars, mpg, cyl, am, rounding_digits = 5)
-#'
-#'
-#'
 #'
 stats_presentable <- function(df, x, group_var1, group_var2, rounding_digits = 1){
 

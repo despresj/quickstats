@@ -1,4 +1,4 @@
-#' @title Not in Operator
+#' @title NotinOperator
 #'
 #' @description Returns Everything But the Vector Specified
 #'
@@ -10,8 +10,6 @@
 #'
 #' @examples
 #' dplyr::filter(mtcars, carb %!in% c(1,2,3))
-#'
-#'
 #'
 #'
 `%!in%` <- function(x,y)!{'%in%'(x,y)}

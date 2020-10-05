@@ -1,4 +1,4 @@
-#' @title stats_summary
+#' @title statssummary
 #'
 #' @description basic summary statistics using dplyr
 #'
