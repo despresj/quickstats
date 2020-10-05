@@ -11,7 +11,7 @@
 #'
 #'
 #'
-book_data <- function (chapter = 1, problem = 19) {
+book_data <- function (chapter = 1, problem = 19){
 
   link <- paste0("http://www.cnachtsheim-text.csom.umn.edu/Kutner/Chapter%20%201%20Data%20Sets/CH0",
                  chapter, "PR", problem,".txt")
